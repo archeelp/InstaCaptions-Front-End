@@ -30,8 +30,9 @@ class AppDrawer extends StatelessWidget {
               alignment: Alignment.center,
 
               child: Image.asset(
-                'android/assets/images/appdrawerimage.png',
-                width: double.infinity,
+                'android/assets/images/splash_logo.png',
+                width: 150,
+                height: 150,
                 fit: BoxFit.fill,
               ),
             ),
