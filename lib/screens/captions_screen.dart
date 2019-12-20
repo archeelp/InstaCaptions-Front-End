@@ -21,16 +21,6 @@ class _CaptionsScreenState extends State<CaptionsScreen> {
     image = routeArgs["image"];
   }
 
-//  Future<void> generateCaptions() async {
-//    final url = 'http://saifkazi.pythonanywhere.com/get_select_genres';
-//    final response = await http.get(url);
-//    print(response.body);
-//    setState(() {
-//      final Map<String, dynamic> data = jsonDecode(response.body);
-//      Captions.captions = data["Generated_Captions"];
-//    });
-//  }
-
   @override
   Widget build(BuildContext context) {
     final appBar = AppBar(
