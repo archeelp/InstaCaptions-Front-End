@@ -47,6 +47,8 @@ flutter:
     - android/assets/images/camera.png
     - android/assets/images/files.png
     - android/assets/images/appdrawerimage.png
+    - android/assets/images/web_hi_res_512.png
+    - android/assets/images/splash_logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
