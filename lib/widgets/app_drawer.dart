@@ -15,6 +15,7 @@ class AppDrawer extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
+              color: Color.fromRGBO(255, 255, 204, 1),
               width: double.infinity,
               height: MediaQuery.of(context).orientation == Orientation.portrait
                   ? (MediaQuery.of(context).size.height -
@@ -30,10 +31,10 @@ class AppDrawer extends StatelessWidget {
               alignment: Alignment.center,
 
               child: Image.asset(
-                'android/assets/images/splash_logo.png',
+                'android/assets/images/logo2.png',
                 width: 150,
                 height: 150,
-                fit: BoxFit.fill,
+                fit: BoxFit.contain,
               ),
             ),
             Container(

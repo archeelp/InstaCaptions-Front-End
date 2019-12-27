@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Image.asset(
-                'android/assets/images/splash_logo.png',
+                'android/assets/images/logo.png',
                 fit: BoxFit.contain,
               ),
               AnimatedOpacity(
